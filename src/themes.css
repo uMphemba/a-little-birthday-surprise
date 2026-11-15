@@ -94,3 +94,14 @@
 /* Vector artwork keeps decorative marks consistent on every device. */
 .brand-mark{width:32px;height:32px;flex:none}.footer-sparkle{width:13px;height:13px;vertical-align:middle;margin-left:5px;color:#d8a0a4}.background-decoration svg.float{width:17px;height:17px;fill:none}.creator-header .brand-mark{width:32px;height:32px}
 @media(max-width:380px){.creator-header .brand-mark{width:25px;height:25px}}
+/* The message lifts from behind the opening gift and settles above it. */
+.gift-reveal{display:flex;flex-direction:column;align-items:center;width:min(100%,510px);position:relative}
+.gift-reveal.is-open{flex-direction:column-reverse}
+.gift-reveal .gift{z-index:2;flex:none}
+.gift-reveal .gift-message{position:relative;z-index:1;width:100%;padding:18px 22px;background:#fffaf4;border:1px solid #efcbd0;border-radius:14px;box-shadow:0 12px 28px #b77a8024;transform-origin:center bottom;animation:message-from-gift 1s .25s cubic-bezier(.22,.7,.22,1) both}
+.gift-reveal .gift-message-label{margin:0 0 12px}
+.gift-reveal .gift-message p{margin:0;white-space:pre-wrap}
+.gift-continue{margin-top:12px;animation:arrive .5s 1s both}
+@keyframes message-from-gift{0%{opacity:0;transform:translateY(95%) scale(.45)}35%{opacity:1}100%{opacity:1;transform:translateY(0) scale(1)}}
+@media(max-width:380px){.gift-reveal .gift-message{padding:16px}.gift-reveal .gift-message p{font-size:18px}.gift-reveal .gift{margin-top:8px}}
+@media(prefers-reduced-motion:reduce){.gift-reveal .gift-message,.gift-continue{animation:none}}
