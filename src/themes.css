@@ -1,0 +1,57 @@
+/* A different visual language for each shared birthday journey. */
+.theme-lavender .theme-emblem,.theme-sunshine .theme-emblem{filter:drop-shadow(0 6px 5px #8e78952b)}
+.theme-lavender .postcard-bow{width:100px;right:-33px;top:-36px;transform:rotate(12deg)}
+.theme-sunshine .postcard-bow{width:100px;right:-37px;top:-35px;transform:rotate(12deg)}
+.theme-lavender .app:before{opacity:.2}
+.theme-lavender:before{background-image:radial-gradient(#bfaacf .8px,transparent .8px);background-size:16px 16px}
+.theme-lavender .orbit{border-color:#d2c2df;border-style:dashed}
+.theme-lavender .orbit-two{border-style:solid;border-color:#e3d8eb}
+.theme-lavender .postcard{background:#faf7fc;border-radius:140px 140px 8px 8px;box-shadow:0 22px 50px #8b759733}
+.theme-lavender .postcard-border{border-color:#d7c6e3;border-radius:130px 130px 4px 4px}
+.theme-lavender .postcard-title{color:#725e82}
+.theme-lavender .postcard-top,.theme-lavender .postcard-bottom,.theme-lavender .postcard-divider{color:#9378a5}
+.theme-lavender .round-stamp{background:#ded0ea;outline-color:#ded0ea;border-color:#a189b4;color:#806994}
+.theme-lavender .brand-mark,.theme-lavender .background-decoration .float,.theme-lavender .cake-sparkle{color:#a88fbc}
+.theme-lavender .flower{font-size:0;text-shadow:none}
+.theme-lavender .flower:after{content:'✦';font-size:30px;color:#b49cc8}
+.theme-lavender .flower-b:after{content:'☾';font-size:34px}
+.theme-lavender .button:not(.secondary){background:#78618f;box-shadow:0 8px 22px #81709b38}
+.theme-lavender .button:not(.secondary):hover{background:#665079}
+.theme-lavender .button.secondary{color:#745d8b;border-color:#c8b3d7;background:#faf7fc}
+.theme-lavender .sound-button{background:#f9f5fb;border-color:#ded1e6;color:#806b92}
+.theme-lavender .cake-art,.theme-lavender .gift,.theme-lavender .envelope{filter:none}
+.theme-lavender .cake-body{background:linear-gradient(90deg,#d8c6e5,#f0e6f4 45%,#d7c3e2);border-color:#af98c0}
+.theme-lavender .cake-top,.theme-lavender .icing-drip{background:#faf4fa;border-color:#c2afcf}
+.theme-lavender .cake-piping{color:#a78bb9}.theme-lavender .cake-ribbon{background:#b8a0cb}
+.theme-lavender .cake-plate{background:#e7dbeb;border-color:#b6a2c5}
+.theme-lavender .candle{background:repeating-linear-gradient(135deg,#ad94c1 0 5px,#fff8fb 5px 10px);border-color:#a88fba}
+.theme-lavender .envelope-back{background:#cdb9dc}.theme-lavender .envelope-front{background:#e2d1ea}.theme-lavender .envelope-flap{background:#eee2f1}.theme-lavender .envelope-seal{background:#9b82af}
+.theme-lavender .letter-paper{background:#fdfafd;border-color:#ded0e5}.theme-lavender .letter-paper:before{border-color:#ece3f0}.theme-lavender .letter-decoration,.theme-lavender .letter-sign{color:#947ca7}
+.theme-lavender .gift-box{background:#cdb5da;border-color:#a58bb8}.theme-lavender .gift-box span,.theme-lavender .gift-lid:after{background:#f2e6f3}.theme-lavender .gift-lid{background:#e0cde7;border-color:#a58bb8}.theme-lavender .gift-bow{filter:hue-rotate(55deg) saturate(.65)}
+.theme-lavender .gift-glow{background:radial-gradient(circle,#e3d5ed,transparent 70%)}.theme-lavender .gift-message p{color:#755f85}.theme-lavender .progress span.active{background:#9b80ae}
+.theme-lavender .confetti i:nth-child(3n){background:#bba4d1}.theme-lavender .confetti i:nth-child(3n+1){background:#e7d5ef}
+.theme-sunshine:before{background-image:radial-gradient(#ddbd85 .7px,transparent .7px);background-size:9px 9px}
+.theme-sunshine .orbit{border-color:#e8d3a6}.theme-sunshine .orbit-two{border-color:#f0dfb9;border-style:dashed}
+.theme-sunshine .postcard{background:#fffbed;border-radius:12px;transform:rotate(4deg);box-shadow:0 22px 50px #ad8c5b30}
+.theme-sunshine .postcard-border{border:1px dashed #dfc48d;border-radius:7px}
+.theme-sunshine .postcard-title{color:#806649}.theme-sunshine .postcard-top,.theme-sunshine .postcard-bottom,.theme-sunshine .postcard-divider{color:#b18b59}
+.theme-sunshine .round-stamp{background:#f5ddb0;outline-color:#f5ddb0;border-color:#c99e60;color:#987044}
+.theme-sunshine .brand-mark,.theme-sunshine .background-decoration .float,.theme-sunshine .cake-sparkle{color:#d4a964}
+.theme-sunshine .flower{color:#f9f3df;text-shadow:0 1px 2px #c8a069}
+.theme-sunshine .button:not(.secondary){background:#a66f40;box-shadow:0 8px 22px #a8895e38}
+.theme-sunshine .button:not(.secondary):hover{background:#8f5c33}
+.theme-sunshine .button.secondary{color:#966439;border-color:#dfc18c;background:#fffbef}
+.theme-sunshine .sound-button{background:#fffaf0;border-color:#e9dab9;color:#a0784e}
+.theme-sunshine .cake-art,.theme-sunshine .gift,.theme-sunshine .envelope{filter:none}
+.theme-sunshine .cake-body{background:linear-gradient(90deg,#f0cbb1,#ffead1 45%,#efc7a8);border-color:#d3a77f}
+.theme-sunshine .cake-top,.theme-sunshine .icing-drip{background:#fff9e8;border-color:#dbc299}
+.theme-sunshine .cake-piping{color:#c79654}.theme-sunshine .cake-ribbon{background:#e7bd76}
+.theme-sunshine .cake-plate{background:#f3e5ca;border-color:#d1b287}
+.theme-sunshine .candle{background:repeating-linear-gradient(135deg,#e6b963 0 5px,#fff9e9 5px 10px);border-color:#d2a765}
+.theme-sunshine .envelope-back{background:#e8c6a3}.theme-sunshine .envelope-front{background:#f7dfbb}.theme-sunshine .envelope-flap{background:#fff0d2}.theme-sunshine .envelope-seal{background:#c99a5a}
+.theme-sunshine .letter-paper{background:#fffdf3;border-color:#e8dabb}.theme-sunshine .letter-paper:before{border-color:#f0e6ce}.theme-sunshine .letter-decoration,.theme-sunshine .letter-sign{color:#af8557}
+.theme-sunshine .gift-box{background:#edc39d;border-color:#c99a6c}.theme-sunshine .gift-box span,.theme-sunshine .gift-lid:after{background:#fff3d9}.theme-sunshine .gift-lid{background:#f4d6ae;border-color:#c99a6c}.theme-sunshine .gift-bow{filter:hue-rotate(32deg) saturate(.75)}
+.theme-sunshine .gift-glow{background:radial-gradient(circle,#f7e3bb,transparent 70%)}.theme-sunshine .gift-message p{color:#8b6949}.theme-sunshine .progress span.active{background:#c2945e}
+.theme-sunshine .confetti i:nth-child(3n){background:#e8bc6d}.theme-sunshine .confetti i:nth-child(3n+1){background:#f1c5a5}
+@media(max-width:700px){.theme-lavender .postcard-bow,.theme-sunshine .postcard-bow{width:72px;right:-28px;top:-27px}.theme-lavender .flower:after{font-size:24px}.theme-lavender .flower-b:after{font-size:28px}}
+.preview-content .theme-lavender .postcard-bow,.preview-content .theme-sunshine .postcard-bow{width:60px;right:-24px;top:-22px}
