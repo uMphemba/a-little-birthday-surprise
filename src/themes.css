@@ -55,3 +55,30 @@
 .theme-sunshine .confetti i:nth-child(3n){background:#e8bc6d}.theme-sunshine .confetti i:nth-child(3n+1){background:#f1c5a5}
 @media(max-width:700px){.theme-lavender .postcard-bow,.theme-sunshine .postcard-bow{width:72px;right:-28px;top:-27px}.theme-lavender .flower:after{font-size:24px}.theme-lavender .flower-b:after{font-size:28px}}
 .preview-content .theme-lavender .postcard-bow,.preview-content .theme-sunshine .postcard-bow{width:60px;right:-24px;top:-22px}
+/* Bright, celebratory accents with readable, grounded text. */
+.theme-pink{background:radial-gradient(ellipse at 78% 38%,#ffd4dd 0,transparent 42%),radial-gradient(ellipse at 8% 75%,#ffe2c9 0,transparent 40%),#fff6ef}
+.theme-pink .visual-halo{background:radial-gradient(circle,#ffb6c8 0,#ffe1da 58%,transparent 72%)}
+.theme-pink .orbit{border-color:#ed9dae}.theme-pink .orbit-two{border-color:#f4bdba}
+.theme-pink .postcard{box-shadow:0 24px 50px #d8748945}.theme-pink .postcard-border{border-color:#edaeb2}
+.theme-pink .intro-copy h1,.theme-pink h2{color:#6a354c}.theme-pink .intro-copy h1 em,.theme-pink h2 em,.theme-pink .postcard-title em{color:#c52f63}
+.theme-pink .eyebrow,.theme-pink .brand,.theme-pink .visual-star{color:#ad345a}.theme-pink .brand-mark,.theme-pink .flower{color:#e75b80}
+.theme-pink .button:not(.secondary),.creator .button{background:#bd285a;color:#fff;box-shadow:0 8px 22px #d73d7445}
+.theme-pink .button:not(.secondary):hover,.creator .button:hover{background:#a21f4d}
+.theme-pink .button.secondary{color:#9c2350;border-color:#db8ca3;background:#fff8f5}
+.theme-pink .round-stamp{background:#ffb9c2;outline-color:#ffb9c2;border-color:#c35a72;color:#80364c}
+.theme-pink .cake-body{background:linear-gradient(90deg,#f6a9ad,#ffd9cc 45%,#f4a8af);border-color:#cf7e89}
+.theme-pink .cake-ribbon{background:#df728b}.theme-pink .cake-piping{color:#bd526c}.theme-pink .gift-box{background:#ed8e9f;border-color:#c76178}.theme-pink .gift-lid{background:#f9b4bb;border-color:#c76178}.theme-pink .envelope-seal{background:#bd4268}
+.theme-lavender{background:radial-gradient(ellipse at 77% 41%,#dcd0fa 0,transparent 42%),radial-gradient(ellipse at 10% 70%,#f2dffc 0,transparent 40%),#faf5ff}
+.theme-lavender .visual-halo{background:radial-gradient(circle,#d1b5f3 0,#ede2ff 58%,transparent 72%)}
+.theme-lavender h1 em,.theme-lavender h2 em,.theme-lavender .postcard-title em{color:#8050a9}
+.theme-lavender .button:not(.secondary){background:#724a96}.theme-lavender .button:not(.secondary):hover{background:#5e3b7e}
+.theme-sunshine{background:radial-gradient(ellipse at 77% 41%,#ffe29a 0,transparent 42%),radial-gradient(ellipse at 10% 70%,#ffd9b9 0,transparent 40%),#fff9e9}
+.theme-sunshine .visual-halo{background:radial-gradient(circle,#ffdc82 0,#fff1bf 58%,transparent 72%)}
+.theme-sunshine h1 em,.theme-sunshine h2 em,.theme-sunshine .postcard-title em{color:#a95f28}
+.theme-sunshine .button:not(.secondary){background:#99581e}.theme-sunshine .button:not(.secondary):hover{background:#804715}
+.app .lead,.app .scene-description{color:#68585b}.app .intro-note,.app .small-hint,.app .instruction,.app .footer-left,.app .footer-right,.app .made-with{color:#785f62}
+.theme-lavender .lead,.theme-lavender .scene-description{color:#61536e}.theme-sunshine .lead,.theme-sunshine .scene-description{color:#6e5847}
+.scene:focus{outline:none}.intro-copy h1,.postcard-title,.letter-text,.gift-message p{overflow-wrap:anywhere}
+.creator{background:radial-gradient(ellipse at 80% 0,#ffe0e7 0,transparent 42%),#fff8f2}.creator-intro h1 em{color:#c52f63}.creator .eyebrow{color:#a7355b}.creator .section-heading>span{background:#ffe2e8;color:#a52e56}.creator .editor-card{border-color:#f0cfd4;box-shadow:0 10px 30px #d3838918}.creator .theme-option.selected{border-color:#c93769;box-shadow:0 0 0 2px #f8c7d4}.creator .field-help,.creator .section-heading p,.creator .preview-heading p,.creator .theme-option small{color:#806a68}.creator .action-button,.creator .preview-reset{color:#8d3c58;min-height:44px}.upload-tile:focus-within,.import-button:focus-within{outline:3px solid #a84968;outline-offset:4px}
+@media(max-width:380px){.cake-art{transform:scale(.84);margin-top:-10px;margin-bottom:-12px;flex-shrink:0}.intro-copy h1{font-size:clamp(37px,12vw,52px)}.moment h2{font-size:clamp(30px,10vw,38px)}.creator-actions .action-button{flex:1}.theme-option strong{overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){.app *, .app *:before, .app *:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
