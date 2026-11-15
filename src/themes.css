@@ -91,3 +91,6 @@
 @media(max-width:380px){.intro-visual{height:245px}.visual-halo{width:260px;height:260px}.orbit{width:225px;height:225px}.orbit-two{width:250px;height:250px}.postcard{width:155px;height:195px}.postcard-title{font-size:22px}.round-stamp{right:4%;bottom:5px}.flower-a{left:4%}.flower-b{left:5%}.cake-art{transform:scale(.8);margin-top:-20px;margin-bottom:-20px}.envelope{width:min(270px,100%)}.creator-header .brand-mark{font-size:25px}.creator-badge{letter-spacing:.08em}.creator-actions .action-button{min-width:0}.theme-options{gap:5px}.theme-option{padding:6px}.theme-option strong{font-size:9px}.theme-option small{font-size:8px}.preview-content .intro-visual{height:240px}}
 @media(prefers-reduced-motion:reduce){.scene.scene-leaving{animation:none}}
 @media(max-width:700px){body{min-width:0}.app,.creator{min-width:0}.creator-layout,.editor,.preview-column{min-width:0}}
+/* Vector artwork keeps decorative marks consistent on every device. */
+.brand-mark{width:32px;height:32px;flex:none}.footer-sparkle{width:13px;height:13px;vertical-align:middle;margin-left:5px;color:#d8a0a4}.background-decoration svg.float{width:17px;height:17px;fill:none}.creator-header .brand-mark{width:32px;height:32px}
+@media(max-width:380px){.creator-header .brand-mark{width:25px;height:25px}}
